@@ -24,14 +24,14 @@ namespace NightSkyPlayer
         public bool CanTakeInput { get; set; } = true;
         private bool isPlaying = false;
 
-        private bool isDragMoveEnabled = false;
-        private bool shouldRepeat = false;
-        private bool shouldShuffle = false;
-        private bool gisMouseOnProg = false;
-        private bool shouldShowVolume = false;
-        private bool autoPlay = false;
-        private bool fullScreen = false;
-        private int volumeAccum = 0;
+        // private bool isDragMoveEnabled = false;
+        // private bool shouldRepeat = false;
+        // private bool shouldShuffle = false;
+        // private bool gisMouseOnProg = false;
+        // private bool shouldShowVolume = false;
+        // private bool autoPlay = false;
+        // private bool fullScreen = false;
+        // private int volumeAccum = 0;
 
         /// 0 = add 
         /// 1 = sub
