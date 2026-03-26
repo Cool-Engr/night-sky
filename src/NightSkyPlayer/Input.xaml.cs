@@ -45,22 +45,22 @@ namespace NightSkyPlayer
         }
         #endregion
         #region Events
-        // private void Input_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     switch (e.Key)
-        //     {
-        //         case Key.Enter:
-        //             holder.GrabInput(tb_name.Text);
-        //             isClosing = true;
-        //             break;
-        //         case Key.Escape:
-        //             isClosing = true;
-        //             break;
-        //         default:
-        //             break;
-        //     }
+        private void Input_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.Key)
+            {
+                case Key.Enter:
+                    holder.GrabInput(tb_name.Text);
+                    isClosing = true;
+                    break;
+                case Key.Escape:
+                    isClosing = true;
+                    break;
+                default:
+                    break;
+            }
 
-        // }
+        }
         private void OpacityWorker_WorkerInterval(object sender, NDC.NDynamics.Arguments.AsyncWorkerArgs e)
         {
             if (Opacity > 1)
