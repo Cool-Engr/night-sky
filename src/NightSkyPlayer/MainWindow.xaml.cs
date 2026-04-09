@@ -246,22 +246,22 @@ namespace NightSkyPlayer
                     case 2:
                         Topmost = bool.Parse(clean);
                         break;
-                    // case 3:
-                    //     autoPlay = bool.Parse(clean);
-                    //     break;
-                    // case 4:
-                    //     fullScreen = bool.Parse(clean);
-                    //     break;
-                    // case 5:
-                    //     int theme = int.Parse(clean);
+                    case 3:
+                        autoPlay = bool.Parse(clean);
+                        break;
+                    case 4:
+                        fullScreen = bool.Parse(clean);
+                        break;
+                    case 5:
+                        int theme = int.Parse(clean);
 
-                    //     if(theme == -1)
-                    //     {
-                    //         theme = new Random().Next(2, 5);    
-                    //     }
-                    //     LoadTheme(theme);
+                        if(theme == -1)
+                        {
+                            theme = new Random().Next(2, 5);    
+                        }
+                        LoadTheme(theme);
 
-                    //     break;
+                        break;
                     default:
                         break;
                 }
