@@ -65,8 +65,8 @@ namespace NightSkyPlayer
         {
             if (Opacity > 1)
                 Opacity = 1;
-            if (isClosing)
-                Opacity -= 0.04;
+            // if (isClosing)
+            //     Opacity -= 0.04;
             else
                 Opacity += 0.04;
             if (Opacity <= 0)
